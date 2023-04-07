@@ -16,6 +16,7 @@
         <java.version>11</java.version>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
+        <lombook.version>1.7.5</lombook.version>
         <project.build.sourceEncoding>
             UTF-8
         </project.build.sourceEncoding>
@@ -29,9 +30,25 @@
 
     <dependencies>
         <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.20</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
             <version>1.7.36</version>
+        </dependency>
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>1.2.11</version>
+        </dependency>
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-core</artifactId>
+            <version>1.2.11</version>
         </dependency>
     </dependencies>
     <build>
@@ -54,7 +71,6 @@
                     <groupId>org.springframework.boot</groupId>
                     <artifactId>spring-boot-maven-plugin</artifactId>
                 </plugin>
-                <!-- Maven assembly plugin template for all child project to follow -->
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-assembly-plugin</artifactId>
@@ -68,8 +84,6 @@
                                 <descriptorRefs>
                                     <descriptorRef>jar-with-dependencies</descriptorRef>
                                 </descriptorRefs>
-                                <!-- below two line make sure the fat jar is sharing the same name
-                                                    as of project name -->
                                 <finalName>${project.artifactId}</finalName>
                                 <appendAssemblyId>false</appendAssemblyId>
                             </configuration>
