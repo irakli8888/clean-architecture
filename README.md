@@ -18,3 +18,7 @@
 * [Dont Repeat Yourself](./architecture/src/main/java/dry/README.md)
 ### YAGNI
 * [You Arent Gonna Need It](./architecture/src/main/java/yagni/README.md)
+### Ports & Adapters Architecture
+* [Hexagonal architecture](./src/main/java/hexagonal_architecture/README.md)
+### Clean Architecture
+* [Clean architecture](./src/main/java/clean_architecture/README.md)
