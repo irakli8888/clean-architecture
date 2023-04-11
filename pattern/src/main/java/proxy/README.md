@@ -108,7 +108,7 @@ Brown wizard is not allowed to enter!
 
 ## Диаграмма классов
 
-![alt text](../../resources/proxy/proxy.png "Proxy pattern class diagram")
+![alt text](../../resources/proxy/proxy.png)
 
 ## Применимость
 

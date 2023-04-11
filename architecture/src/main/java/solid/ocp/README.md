@@ -93,7 +93,7 @@ public class Lion implements Animal{
 
 ## Диаграмма классов
 
-![alt text](../../../resources/solid/ocp/ocp.png "Proxy pattern class diagram")
+![alt text](../../../resources/solid/ocp/ocp.png)
 
 
 ## Туториалы

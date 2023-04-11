@@ -121,7 +121,7 @@ class CustomShape implements Shape {
 
 ## Диаграмма классов
 
-![alt text](../../../resources/solid/isp/isp.png "Proxy pattern class diagram")
+![alt text](../../../resources/solid/isp/isp.png)
 
 
 ## Туториалы

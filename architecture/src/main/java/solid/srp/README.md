@@ -88,7 +88,7 @@ class EmployeeFacade {
 
 ## Диаграмма классов
 
-![alt text](../../../resources/solid/srp/srp.png "Proxy pattern class diagram")
+![alt text](../../../resources/solid/srp/srp.png)
 
 
 ## Туториалы

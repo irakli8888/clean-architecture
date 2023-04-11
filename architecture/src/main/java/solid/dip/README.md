@@ -113,7 +113,7 @@ public class OrderProcessor {
 Теперь наш класс зависит от абстракций, а не от конкретных реализаций. Можно без труда менять его поведение, внедряя нужную зависимость в момент создания экземпляра OrderProcessor.
 ## Диаграмма классов
 
-![alt text](../../../resources/solid/dip/dip.png "Proxy pattern class diagram")
+![alt text](../../../resources/solid/dip/dip.png)
 
 
 ## Туториалы

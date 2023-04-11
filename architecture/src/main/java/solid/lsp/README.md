@@ -103,7 +103,7 @@ public class Dog implements Animal {
 
 ## Диаграмма классов
 
-![alt text](../../../resources/solid/lsp/lsp.png "Proxy pattern class diagram")
+![alt text](../../../resources/solid/lsp/lsp.png)
 
 
 ## Туториалы
