@@ -118,9 +118,6 @@ public class ConfirmedDiagnosis extends AbstractEntity<Long> {
 производимых над сущностями из слоя предметной области.
 
 ```java
-/**
- * Сервис по работе с сообщениями из топика onco_validated_data_slice.
- */
 @Service
 @RequiredArgsConstructor
 @Profile("esu_onco_validated_data_slice_service")
@@ -137,7 +134,6 @@ public class OncoValidatedDataSliceService implements ProcessingService<OncoVali
     private final DeathReasonRepository deathReasonRepository;
 
     /**
-     * 230 А_ЕСУ_28 Обработка данных КР (ОНКО.Сад).
      *
      * @param oncoValidatedDataSliceDto dto сообщения.
      */
@@ -166,7 +162,7 @@ public class OncoValidatedDataSliceService implements ProcessingService<OncoVali
 /**
  * Абстрактный класс бина-обработчика сообщения.
  *
- * @param <T> Тип тела сообщения ЕСУ.
+ * @param <T> Тип тела сообщения.
  */
 @RequiredArgsConstructor
 public abstract class AbstractTopicProcessor<T extends BasicEsuMessageMaintainer> {
